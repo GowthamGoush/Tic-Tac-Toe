@@ -403,13 +403,13 @@ public class Main3Activity extends AppCompatActivity {
         if (ifClicked[2] == 1 && ifClicked[5] == 1 && ifClicked[8] == 1) {
             if (clickedX[2] == 1 && clickedX[5] == 1 && clickedX[8] == 1) {
                 turn = 3;
-                cross_h1.setAlpha(1.0f);
+                cross_h3.setAlpha(1.0f);
                 cross_h3.startAnimation(animation2);
                 customToaster();
                 won=1;
             } else if (clickedO[2] == 1 && clickedO[5] == 1 && clickedO[8] == 1) {
                 turn = 4;
-                cross_h1.setAlpha(1.0f);
+                cross_h3.setAlpha(1.0f);
                 cross_h3.startAnimation(animation2);
                 customToaster();
                 won=1;
